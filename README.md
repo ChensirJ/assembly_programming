@@ -9,3 +9,9 @@
 ## 8259_program.asm:
 8259中断程序设计，每隔1s显示一句Hello！一共显示10行
 <a href="https://www.chenhao.fun/2021/01/28/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%885%EF%BC%89/">程序分析</a>
+## 8250_program_1.asm（查询方式接收数据）:
+软件编写汇编程序对PC系统的串行口进行内环测试，发送电文‘HELLO’，接收数据在屏幕上显示输出。发送用查询方式，接收用查询方式来编程。
+<a href="https://www.chenhao.fun/2021/01/28/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%886%EF%BC%89/">程序分析</a>
+## 8250_program_2.asm（中断方式接收数据）:
+软件编写汇编程序对PC系统的串行口进行内环测试，发送电文‘HELLO’，接收数据在屏幕上显示输出。发送用查询方式，接收用中断方式来编程。
+<a href="https://www.chenhao.fun/2021/01/28/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%886%EF%BC%89/">程序分析</a>
